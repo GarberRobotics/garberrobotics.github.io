@@ -1,15 +1,11 @@
 html, body {
-
     top: 0;
     bottom: 0;
     left: 0;
     right: 0;
-}
-
-footer {
-  background-color: black;
-  color: white;
-  padding-left: 2%;
+    background-color: #1d1d1d;
+    color: white;
+    font-family: Sans-serif;
 }
 
 
@@ -36,6 +32,11 @@ li a {
 li a:hover {
     background-color: #111111;
 }
+
+p a {
+  color: #53edf3;
+}
+
 .main{
   text-align: center;
   background-color: #2bb5dc;
