@@ -7,9 +7,25 @@ html, body {
     color: white;
     font-family: Sans-serif;
 }
+.sponsor {
+  text-align: left;
+}
+.sponsor p{
+  padding-left: 1%;
+  color: #e6e6e6;
+}
+
+.sponsor li{
+  padding-left: 2%;
+  color: #e6e6e6;
+}
+
+.sponsor h2{
+  color: white;
+}
 
 
-ul {
+.navbar ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -17,11 +33,11 @@ ul {
     background-color: #333333;
 }
 
-li {
+.navbar li {
     float: left;
 }
 
-li a {
+.navbar li a {
     display: block;
     color: white;
     text-align: center;
@@ -29,7 +45,7 @@ li a {
     text-decoration: none;
 }
 
-li a:hover {
+.navbar li a:hover {
     background-color: #111111;
 }
 
@@ -44,4 +60,52 @@ p a {
 
 .center{
   text-align: center;
+}
+
+footer{
+  list-style-type: none;
+  font-size: 80%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  background-color: #4395cd;
+  margin-top: 1%;
+}
+
+.column {
+  float: left;
+  width: 15%;
+  padding: 10px;
+}
+
+.column a{
+  color: white;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.button {
+    background-color: #4395cd;
+    border: none;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+
+    background-color: #1d1d1d;
+    color: white;
+    border: 2px solid #4395cd;
+}
+
+.button:hover {
+    background-color: #4395cd;
+    color: white;
 }
