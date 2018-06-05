@@ -71,14 +71,18 @@ footer{
   margin-top: 1%;
 }
 
-.column {
+.footerColumn {
   float: left;
-  width: 15%;
+  width: 10%;
   padding: 10px;
 }
 
-.column a{
+.footerColumn a{
   color: white;
+}
+
+.footerText {
+  padding-right: 5%;
 }
 
 .row:after {
@@ -108,4 +112,18 @@ footer{
 .button:hover {
     background-color: #4395cd;
     color: white;
+}
+
+.bodyColumn {
+  float: left;
+  width: 45%;
+
+}
+.imageGal {
+}
+.aboutText {
+}
+
+.bodyColumn a{
+  color: white;
 }
