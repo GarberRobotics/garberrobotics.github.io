@@ -7,57 +7,61 @@
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
     <script src="js/index.js"></script>
   </head>
-  <body>
-    <!-- Hello Dev! -->
-    <div id="home" class="main">
-      <h1>E-Ville Empire</h1>
-      <h3>5216</h3>
-    </div>
-    <div class="navbar">
-      <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#about">About Us</a></li>
-        <li><a href="contact.html">Contact</a></li>
-        <li><a href="sponsor.html">Sponsors</a></li>
-        <li><a href="mentors.html">Mentors</a></li>
-        <li><a href="gallery.html">Gallery</a></li>
-        <li><a href="robots.html">Robots</a></li>
-        <li><a href="awards.html">Awards</a></li>
-      </ul>
-    </div>
-    <p></p>
+<script>
+function includeHTML() {
+  var z, i, elmnt, file, xhttp;
+  /*loop through a collection of all HTML elements:*/
+  z = document.getElementsByTagName("*");
+  for (i = 0; i < z.length; i++) {
+    elmnt = z[i];
+    /*search for elements with a certain atrribute:*/
+    file = elmnt.getAttribute("w3-include-html");
+    if (file) {
+      /*make an HTTP request using the attribute value as the file name:*/
+      xhttp = new XMLHttpRequest();
+      xhttp.onreadystatechange = function() {
+        if (this.readyState == 4) {
+          if (this.status == 200) {elmnt.innerHTML = this.responseText;}
+          if (this.status == 404) {elmnt.innerHTML = "Page not found.";}
+          /*remove the attribute, and call this function once more:*/
+          elmnt.removeAttribute("w3-include-html");
+          includeHTML();
+        }
+      }
+      xhttp.open("GET", file, true);
+      xhttp.send();
+      /*exit the function:*/
+      return;
+    }
+  }
+};
+</script>
 
-    <div class="row">
-      <div class="bodyColumn imageGal">
-          <img id="imageGal" alt="The Team!" src="images/5216TeamMember2018.jpeg" style="width:600px">
-      </div>
-      <div id="about" class="bodyColumn aboutText">
-        <h1>About Us</h1>
-        <p>We are the E-Ville Empire based in Essexville, Michigan. Our team has been around for five years and counting. Over those years, we have placed highly in most of our competitions, making it to worlds twice. The students on the team all attend Garber High School and work countless hours to improve and perfect the robot with close to no help from the mentors. The program is non-profit and is made entirely to help give students an idea of what there is to offer in the STEM field. We look forward to many more years of competition to kick some nuts and bolts!</p>
-      </div>
-    </div>
+<body>
 
-  </body>
-  <footer>
-    <div class="footer">
-      <div class="row">
-        <div class="footerColumn footerText">
-          <li>E-Ville Empire Team 5216</li>
-          <li>Garber High School</li>
-          <li>213 Pine St</li>
-          <li>Essexville, MI 48708</li>
-        </div>
-        <div class="footerColumn" style:"color:white;">
-          <li><a href="#">Home</a></li>
-          <li><a href="#about">About Us</a></li>
-          <li><a href="#contact">Contact</a></li>
-          <li><a href="sponsor.html">Sponsors</a></li>
-        </div>
-        <div class="footerColumn" style:"color:white;">
-          <li><a href="#">Mentors</a></li>
-          <li><a href="#about">Media</a></li>
-        </div>
-      </div>
-    </div>
-  </footer>
+
+<div w3-include-html="header.html"></div>
+
+<!-- START OF PAGE -->
+
+
+<div class="row">
+  <div class="bodyColumn imageGal">
+      <img id="imageGal" alt="The Team!" src="images/5216TeamMember2018.jpeg" style="width:600px">
+  </div>
+  <div id="about" class="bodyColumn aboutText">
+    <h1>About Us</h1>
+    <p>We are the E-Ville Empire based in Essexville, Michigan. Our team has been around for five years and counting. Over those years, we have placed highly in most of our competitions, making it to worlds twice. The students on the team all attend Garber High School and work countless hours to improve and perfect the robot with close to no help from the mentors. The program is non-profit and is made entirely to help give students an idea of what there is to offer in the STEM field. We look forward to many more years of competition to kick some nuts and bolts!</p>
+  </div>
+</div>
+
+</body>
+
+<div w3-include-html="footer.html">
+
+</div>
+
+<script>
+includeHTML();
+</script>
 </html>
