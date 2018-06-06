@@ -4,71 +4,57 @@
     <meta charset="utf-8">
     <link rel="stylesheet" type="text/css" href="css/index.css">
     <title>E-Ville Empire</title>
-
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="js/index.js"></script>
   </head>
-  <body>
-    <div id="home" class="main">
-      <h1>E-Ville Empire</h1>
-      <h3>5216</h3>
-    </div>
-    <div class="navbar">
-      <ul>
-        <li><a href="index.html#">Home</a></li>
-        <li><a href="index.html#about">About Us</a></li>
-        <li><a href="index.html#contact">Contact</a></li>
-        <li><a href="sponsor.html">Sponsors</a></li>
-      </ul>
-    </div>
-    <p></p>
-    <div class="sponsor">
-      <div class="sponsor-text">
-        <h1>Become a Sponsor</h1>
-        <p>We would not be able to continue without your help.</p>
-      </div>
-      <div class="gold">
-        <h2>Gold Sponsor</h2>
-        <p>$1,000 or more in monetary contribution</p>
-        <p>Benefits:</p>
-        <li>Medium logo displayed on robot and banners. </li>
-        <li>Medium logo displayed on Team uniforms</li>
-        <li>Local, regional, and national media coverage (where available) </li>
-        <li>Company name included in official Team Name, and in Team portfolio</li>
-        <li>Listing on Team website</li>
-      </div>
-      <div class="silver">
-        <h2>Silver Sponsor</h2>
-        <p>$500 - $999 in monetary contribution</p>
-        <p>Benefits:</p>
-        <li>Logo displayed on robot </li>
-        <li>Company Name featured in text on Team uniforms</li>
-        <li>Logo displayed on Pit banners.</li>
-        <li>Listing on Team website</li>
-      </div>
-      <div class="bronze">
-        <h2>Bronze Sponsor</h2>
-        <p>$100 - $499 in monetary contribution</p>
-        <p>Benefits:</p>
-        <li>Small logo displayed on the pit banner</li>
-        <li>Listing on Team website</li>
-      </div>
-    </div>
-  </body>
-  <footer>
-    <div class="footer">
-      <div class="row">
-        <div class="column">
-          <li>E-Ville Empire Team 5216</li>
-          <li>Garber High School</li>
-          <li>213 Pine St</li>
-          <li>Essexville, MI 48708</li>
-        </div>
-        <div class="column" style:"color:white;">
-          <li><a href="#">Home</a></li>
-          <li><a href="#about">About Us</a></li>
-          <li><a href="#contact">Contact</a></li>
-          <li><a href="sponsor.html">Sponsors</a></li>
-        </div>
-      </div>
-    </div>
-  </footer>
+<body>
+
+
+<div include-html="header.html"></div>
+
+<!-- START OF PAGE -->
+
+<div class="sponsor">
+  <div class="sponsor-text">
+    <h1>Become a Sponsor</h1>
+    <p>We would not be able to continue without your help.</p>
+  </div>
+  <div class="gold">
+    <h2>Gold Sponsor</h2>
+    <p>$1,000 or more in monetary contribution</p>
+    <p>Benefits:</p>
+    <li>Medium logo displayed on robot and banners. </li>
+    <li>Medium logo displayed on Team uniforms</li>
+    <li>Local, regional, and national media coverage (where available) </li>
+    <li>Company name included in official Team Name, and in Team portfolio</li>
+    <li>Listing on Team website</li>
+  </div>
+  <div class="silver">
+    <h2>Silver Sponsor</h2>
+    <p>$500 - $999 in monetary contribution</p>
+    <p>Benefits:</p>
+    <li>Logo displayed on robot </li>
+    <li>Company Name featured in text on Team uniforms</li>
+    <li>Logo displayed on Pit banners.</li>
+    <li>Listing on Team website</li>
+  </div>
+  <div class="bronze">
+    <h2>Bronze Sponsor</h2>
+    <p>$100 - $499 in monetary contribution</p>
+    <p>Benefits:</p>
+    <li>Small logo displayed on the pit banner</li>
+    <li>Listing on Team website</li>
+  </div>
+</div>
+
+<!-- END OF PAGE -->
+</body>
+
+<div include-html="footer.html">
+
+</div>
+
+<script>
+includeHTML();
+</script>
 </html>

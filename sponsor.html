@@ -4,45 +4,32 @@
     <meta charset="utf-8">
     <link rel="stylesheet" type="text/css" href="css/index.css">
     <title>E-Ville Empire</title>
-
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="js/index.js"></script>
   </head>
-  <body>
-    <div id="home" class="main">
-      <h1>E-Ville Empire</h1>
-      <h3>5216</h3>
-    </div>
-    <div class="navbar">
-      <ul>
-        <li><a href="index.html#">Home</a></li>
-        <li><a href="index.html#about">About Us</a></li>
-        <li><a href="index.html#contact">Contact</a></li>
-        <li><a href="sponsor.html">Sponsors</a></li>
-      </ul>
-    </div>
-    <p></p>
-    <div class="sponsor">
-      <h1>Our Current Sponsors</h1>
-    </div>
-    <center>
-      <button onclick="window.location.href='become-a-sponsor.html'" class="button">Become a Sponsor</button>
-    </center>
-  </body>
-  <footer>
-    <div class="footer">
-      <div class="row">
-        <div class="column">
-          <li>E-Ville Empire Team 5216</li>
-          <li>Garber High School</li>
-          <li>213 Pine St</li>
-          <li>Essexville, MI 48708</li>
-        </div>
-        <div class="column" style:"color:white;">
-          <li><a href="index.html#">Home</a></li>
-          <li><a href="index.html#about">About Us</a></li>
-          <li><a href="index.html#contact">Contact</a></li>
-          <li><a href="sponsor.html">Sponsors</a></li>
-        </div>
-      </div>
-    </div>
-  </footer>
+<body>
+
+
+<div include-html="header.html"></div>
+
+<!-- START OF PAGE -->
+
+<div class="sponsor">
+  <h1>Our Current Sponsors</h1>
+</div>
+<center>
+  <button onclick="window.location.href='become-a-sponsor.html'" class="button">Become a Sponsor</button>
+</center>
+
+
+<!-- END OF PAGE -->
+</body>
+
+<div include-html="footer.html">
+
+</div>
+
+<script>
+includeHTML();
+</script>
 </html>
