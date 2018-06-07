@@ -5,9 +5,9 @@ html, body {
     left: 0;
     right: 0;
     background-color: #f5c3c2;
-    color: #f5c3c2;
+    color: #fffffff;
     font-family: 'Press Start 2P', cursive;
-    background-image: url("/images/146603-star-wars-star-background-2000x1254-full-hd.jpg");
+    
     
 }
 
@@ -145,3 +145,5 @@ footer{
 .bodyColumn a{
   color: white;
 }
+
+
