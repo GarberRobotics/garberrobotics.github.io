@@ -19,4 +19,4 @@ setInterval (function(){
   document.getElementById("imageGal").style.width = width+"px";
   document.getElementById("imageGal").style.height = height+"px";
   index++;
-} , 10000);
+} , 10000); // 10,000 is 10 sec be for changing pics
