@@ -2,7 +2,7 @@
 E-Ville Empire FRC Team 5216
 
 
-## Things To do.
+## Things To do
 * Commint my version with the Star wars stylesheet added
 * Add our Sponsors
 * Add our mentors with pictures and contact info
