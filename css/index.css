@@ -1,4 +1,4 @@
-/* css  fro all propertys */
+/* css for all properties */
 html, body {
     top: 0;
     bottom: 0;
@@ -10,7 +10,7 @@ html, body {
     background-image: url("/images/146603-star-wars-star-background-2000x1254-full-hd.jpg");
 
 }
-/* Big text look awesome with this font */
+/* Big text looks awesome with this font */
 h1 {
   font-family: 'STARWARS'
 }
@@ -32,7 +32,7 @@ h1 {
   color: white;
 }
 
-/* This is the navbar stuff, like the  stuff that has the links at the top of the page */
+/* This is the navbar stuff */
 .navbar ul {
     list-style-type: none;
     margin: 0;
@@ -88,7 +88,7 @@ footer{
   line-height: 110%;
 }
 
-/* Theres colums so that you can have text differnt text on the same line */
+/* Theres colums so that you can have text different text on the same line */
 .footerColumn {
   float: left;
   width: 10%;
@@ -112,7 +112,7 @@ footer{
   clear: both;
 }
 
-/* makes pritty buttons */
+/* makes pretty buttons */
 .button {
     background-color: #4395cd;
     border: none;
@@ -136,7 +136,7 @@ footer{
     color: white;
 }
 
-/* theres a column for the body as well as the footer */
+/* there's a column for the body as well as the footer */
 .bodyColumn {
   float: left;
   width: 45%;
@@ -150,7 +150,7 @@ footer{
 .imageGal {
 }
 
-/* propertys for the about text paragraph on the front page */
+/* properties for the about text paragraph on the front page */
 .aboutPText {
   line-height: 1.2em !important;
   background: rgba(0, 0, 0, 0.5);
