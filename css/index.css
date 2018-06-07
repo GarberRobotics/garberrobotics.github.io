@@ -155,3 +155,15 @@ footer{
   line-height: 1.2em !important;
   background: rgba(0, 0, 0, 0.5);
 }
+/*changes color of gold sponsor on the become a sponser page*/ 
+.gold2 {
+  color: #ffd700;
+}
+/*changes color of silver sponsor on the become a sponser page*/ 
+.silver2 {
+    color: #c0c0c0;
+}
+/*changes color of bronze sponsor on the become a sponser page*/ 
+.bronze2 {
+    color: #cd7f32;
+}
