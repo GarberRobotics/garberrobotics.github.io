@@ -1,4 +1,4 @@
-
+/* css  fro all propertys */
 html, body {
     top: 0;
     bottom: 0;
@@ -10,12 +10,11 @@ html, body {
     background-image: url("/images/146603-star-wars-star-background-2000x1254-full-hd.jpg");
 
 }
-
+/* Big text look awesome with this font */
 h1 {
   font-family: 'STARWARS'
 }
-
-
+/* for sponsor.html */
 .sponsor {
   text-align: left;
 }
@@ -33,7 +32,7 @@ h1 {
   color: white;
 }
 
-
+/* This is the navbar stuff, like the  stuff that has the links at the top of the page */
 .navbar ul {
     list-style-type: none;
     margin: 0;
@@ -62,6 +61,7 @@ p a {
   color: #53edf3;
 }
 
+/* This is the E-Ville Empire part at the very top of the page */
 .main{
   padding-top: 1px;
   padding-bottom: 1px;
@@ -72,11 +72,12 @@ p a {
   color: white;
   letter-spacing: 3px;
 }
-
+/* Stuff that needs to be center */
 .center{
   text-align: center;
 }
 
+/* Footer Stuff. The links at the bottom of the page */
 footer{
   list-style-type: none;
   font-size: 60%;
@@ -87,6 +88,7 @@ footer{
   line-height: 110%;
 }
 
+/* Theres colums so that you can have text differnt text on the same line */
 .footerColumn {
   float: left;
   width: 10%;
@@ -97,17 +99,20 @@ footer{
   color: white;
 }
 
+/* for the footer text */
 .footerText {
   color: white;
   padding-right: 5%;
 }
 
+/* more for the footer */
 .row:after {
   content: "";
   display: table;
   clear: both;
 }
 
+/* makes pritty buttons */
 .button {
     background-color: #4395cd;
     border: none;
@@ -131,18 +136,22 @@ footer{
     color: white;
 }
 
+/* theres a column for the body as well as the footer */
 .bodyColumn {
   float: left;
   width: 45%;
 
 }
+.bodyColumn a{
+  color: white;
+}
+
+/* image gallery for the front page */
 .imageGal {
 }
+
+/* propertys for the about text paragraph on the front page */
 .aboutPText {
   line-height: 1.2em !important;
   background: rgba(0, 0, 0, 0.5);
-}
-
-.bodyColumn a{
-  color: white;
 }
