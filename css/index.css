@@ -1,3 +1,9 @@
+@font-face {
+    font-family: "Press Start 2P";
+    src: url('PressStart2P/PressStart2P-Regular.ttf') format("truetype");
+}
+
+
 /* css for all properties */
 html, body {
     top: 0;
@@ -155,15 +161,15 @@ footer{
   line-height: 1.2em !important;
   background: rgba(0, 0, 0, 0.5);
 }
-/*changes color of gold sponsor on the become a sponser page*/ 
+/*changes color of gold sponsor on the become a sponser page*/
 .gold2 {
   color: #ffd700;
 }
-/*changes color of silver sponsor on the become a sponser page*/ 
+/*changes color of silver sponsor on the become a sponser page*/
 .silver2 {
     color: #c0c0c0;
 }
-/*changes color of bronze sponsor on the become a sponser page*/ 
+/*changes color of bronze sponsor on the become a sponser page*/
 .bronze2 {
     color: #cd7f32;
 }
