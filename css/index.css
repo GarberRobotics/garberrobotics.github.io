@@ -4,11 +4,11 @@ html, body {
     bottom: 0;
     left: 0;
     right: 0;
-    background-color: #f5c3c2;
-    color: #fffffff;
+    background-color: #1d1d1d;
+    color: #FF6A00;
     font-family: 'Press Start 2P', cursive;
-    
-    
+    background-image: url("/images/146603-star-wars-star-background-2000x1254-full-hd.jpg");
+
 }
 
 h1 {
@@ -39,7 +39,7 @@ h1 {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #f5c3c2;
+    background-color: #333333;
 }
 
 .navbar li {
@@ -145,5 +145,3 @@ footer{
 .bodyColumn a{
   color: white;
 }
-
-
