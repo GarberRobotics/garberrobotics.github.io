@@ -6,7 +6,7 @@ $(document).ready(function() {
     width = document.getElementById('imageGal').width;
     height = document.getElementById('imageGal').height;
 
-    document.getElementById("aboutText").style.padding = "10px 10px 10px " + (width/1/3)+"px";
+    document.getElementById("aboutText").style.padding = "10px 10px 10px " + (width/1/20)+"px";
 });
 
 
