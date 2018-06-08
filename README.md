@@ -9,5 +9,5 @@ E-Ville Empire FRC Team 5216
 * Do something with the gallery
 * add pictures of old robot and there name
 * add the awards that we have won
-~~ * add favicon ~~
+* ~~add favicon ~~
 * Fix Mobile Version
