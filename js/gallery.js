@@ -3,10 +3,15 @@ var width;
 var height;
 
 $(document).ready(function() {
-    width = document.getElementById('imageGal').width;
-    height = document.getElementById('imageGal').height;
 
-    document.getElementById("aboutText").style.padding = "10px 10px 10px " + (width/1/20)+"px";
+    width = (document.getElementById('imageGal').width + window.screen.availWidth) /3.88;
+    height = (document.getElementById('imageGal').width + window.screen.availHeight) /3.88;
+
+
+    document.getElementById("aboutText").style.margin = "10px 10px 10px " + (width/1/20)+"px";
+
+    document.getElementById("imageGal").style.width = width+"px";
+    document.getElementById("imageGal").style.height = height+"px";
 });
 
 
