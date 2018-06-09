@@ -3,6 +3,7 @@ E-Ville Empire FRC Team 5216
 
 
 ## Things To do
+* make a 404 error page
 * Add our Sponsors
 * Add our mentors with pictures and contact info
 * Do something with the gallery
