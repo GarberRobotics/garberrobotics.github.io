@@ -1,3 +1,4 @@
+/* loads custom font Press start 2p  */
 @font-face {
     font-family: "Press Start 2P";
     src: url('PressStart2P/PressStart2P-Regular.ttf') format("truetype");
@@ -16,6 +17,8 @@ html, body {
     background-image: url("/images/146603-star-wars-star-background-2000x1254-full-hd.jpg");
 
 }
+
+
 /* Big text looks awesome with this font */
 h1 {
   font-family: 'STARWARS'
@@ -124,12 +127,6 @@ footer{
   padding-right: 5%;
 }
 
-/* more for the footer */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
 
 /* makes pretty buttons */
 .button {
@@ -156,21 +153,84 @@ footer{
 }
 
 /* there's a column for the body as well like in the footer */
-.bodyColumn {
-  float: left;
-  width: 45%;
-
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
 }
-.bodyColumn a{
+
+/* Clearfix (clear floats) */
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.column a{
   color: white;
 }
 
-/* image gallery for the front page */
-.imageGal {
-}
-
 /* properties for the about text paragraph on the front page */
-.aboutPText {
+p {
   line-height: 1.2em !important;
   background: rgba(0, 0, 0, 0.5);
+}
+
+/* Custom Font sizes, helps with moble viwing */
+h1 {
+    font-size: 2.5rem;
+}
+
+h2 {
+    font-size: 2.25rem;
+}
+
+h3 {
+    font-size: 2rem;
+}
+
+h4 {
+    font-size: 1.75rem;
+}
+
+h5 {
+    font-size: 1.5rem;
+}
+
+h6 {
+    font-size: 1.25rem;
+}
+
+p {
+    font-size: 1rem;
+}
+
+@media (max-width: 480px) {
+    html {
+        font-size: 12px;
+    }
+}
+
+@media (min-width: 480px) {
+    html {
+        font-size: 13px;
+    }
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 992px) {
+    html {
+        font-size: 15px;
+    }
+}
+
+@media (min-width: 1200px) {
+    html {
+        font-size: 16px;
+    }
 }

@@ -9,6 +9,6 @@ E-Ville Empire FRC Team 5216
 * Do something with the gallery
 * add pictures of old robot and there name
 * add the awards that we have won
-* Fix Mobile Version
+* ~~Fix Mobile Version~~ Still could use a lot of work, but fixed.
 * ~~Commit my version with the Star wars stylesheet added~~
 * ~~add favicon~~
