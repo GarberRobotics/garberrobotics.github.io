@@ -155,7 +155,7 @@ footer{
 /* there's a column for the body as well like in the footer */
 .column {
     float: left;
-    width: 33.33%;
+    width: 40%;
     padding: 5px;
 }
 
