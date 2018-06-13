@@ -170,6 +170,25 @@ footer{
   color: white;
 }
 
+/* Awards Right Side */
+.awardsR {
+  white-space:nowrap;
+}
+/* Text Awards - Puts semi-transparent layer over the whole div*/
+.awardText {
+  background: rgba(0, 0, 0, 0.5);
+}
+/* Removes the semi-transparent layer over the <p>, only one shade of grey */
+.awardText p {
+  background: rgba(0, 0, 0, 0);
+}
+
+/* Text Awards li */
+.awardText li {
+  font-size: 0.6rem;
+  line-height: 1.2em;
+}
+
 /* properties for the about text paragraph on the front page */
 p {
   line-height: 1.2em !important;
