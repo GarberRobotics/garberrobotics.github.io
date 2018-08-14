@@ -152,6 +152,10 @@ footer{
     color: white;
 }
 
+.lispace{
+  margin: 10px 0;
+}
+
 /* there's a column for the body as well like in the footer */
 .column {
     float: left;
