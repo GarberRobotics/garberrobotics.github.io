@@ -6,9 +6,9 @@ E-Ville Empire FRC Team 5216
 * Put e-hps.net somewhere on the website
 * ~~Describe what FIRST Robotics Competition is~~
 * Add our Sponsors
-* Add our mentors with pictures and contact info
+* ~~Add our mentors~~ with pictures and contact info
 * add something with the gallery
-* ~~add pictures of old robot and their name~~
+* add pictures of old robots ~~and their names~~
 * ~~add the awards that we have won~~
 * ~~make a 404 error page~~ do the 404 error page better
 * ~~Fix Mobile Version~~ Still could use a lot of work, but fixed.
