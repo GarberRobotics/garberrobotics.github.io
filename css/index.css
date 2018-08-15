@@ -113,8 +113,8 @@ footer{
 /* Theres colums so that you can have text different text on the same line */
 .footerColumn {
   float: left;
-  width: 10%;
-  padding: 10px;
+  width: 15%;
+  padding: 5px;
 }
 
 .footerColumn a{
@@ -124,7 +124,7 @@ footer{
 /* for the footer text */
 .footerText {
   color: white;
-  padding-right: 5%;
+  padding-right: 0%;
 }
 
 
