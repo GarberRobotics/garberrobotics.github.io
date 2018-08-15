@@ -182,13 +182,13 @@ footer{
   white-space:nowrap;
 }
 /* Text Awards - Puts semi-transparent layer over the whole div*/
-.awardText {
+/*.awardText {
   background: rgba(0, 0, 0, 0.5);
-}
+}*/
 /* Removes the semi-transparent layer over the <p>, only one shade of grey */
-.awardText p {
+/*.awardText p {
   background: rgba(0, 0, 0, 0);
-}
+}*/
 
 /* Text Awards li */
 .awardText li {
@@ -199,7 +199,7 @@ footer{
 /* properties for the about text paragraph on the front page */
 p {
   line-height: 1.2em !important;
-  background: rgba(0, 0, 0, 0.5);
+  /*background: rgba(0, 0, 0, 0.5);*/
 }
 
 /* Custom Font sizes, helps with moble viwing */
