@@ -36,6 +36,19 @@ h1 {
 .bronze2 {
     color: #cd7f32;
 }
+.scholarshipsHeader{
+  margin-left: 5%;
+}
+.scholarships{
+  color: #e6e6e6;
+  margin-left: 10%;
+}
+
+.aboutMentors{
+  color: #e6e6e6;
+  margin-left: 10%;
+}
+
 /* for sponsor.html */
 .sponsor {
   text-align: left;
