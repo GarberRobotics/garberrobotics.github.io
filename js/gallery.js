@@ -18,7 +18,7 @@ $(document).ready(function() {
 // IMPORTANT!!! MAKE SURE THE IMAGES ARE 1200x800 !!!!
 //To add images to the slideshow add put the image in the images folder and put the filename here
 var imageSources = ["5216TeamMember2018.jpeg", "comp.jpg", "compEndGame.png", "compGame.jpg", "teamPicture.png", "awardMidland.png", "awardMidland1.png", "Driving.png", "pits.png",
-"20180324_145929.gif", "20180427_161139_resized.png", "20180427_152009_resized.jpg", "20180414_112920_resized.png"]
+"20180324_145929.gif", "20180427_161139_resized.png", "20180427_152009_resized.png", "20180414_112920_resized.png"]
 // IMPORTANT!!! MAKE SURE THE IMAGES ARE 1200x800 !!!!
 
 function startSlideShow(){
