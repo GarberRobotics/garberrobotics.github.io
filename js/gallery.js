@@ -10,7 +10,7 @@ $(document).ready(function() {
     document.getElementById("about").style.margin = "10px 10px 10px " + (width/1/20)+"px";
 
     //document.getElementById("imageGal").style.width = width+"px";
-    document.getElementById("imageGal").style.height = height+"px";
+    //document.getElementById("imageGal").style.height = height+"px";
     startSlideShow();
 });
 
@@ -29,7 +29,7 @@ function startSlideShow(){
     }
     document.getElementById("imageGal").src = "images/"+imageSources[index];
     //document.getElementById("imageGal").style.width = width+"px";
-    document.getElementById("imageGal").style.height = height+"px";
+    //document.getElementById("imageGal").style.height = height+"px";
     index++;
   }, 10000); // 10,000 is 10 sec be for changing pics
 }

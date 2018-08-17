@@ -24,6 +24,11 @@ h1 {
   font-family: 'STARWARS'
 }
 
+.aboutPText {
+  color: #e6e6e6;
+}
+
+
 /*changes color of gold sponsor on the become a sponser page*/
 .gold2 {
   color: #ffd700;
