@@ -6,3 +6,5 @@ E-Ville Empire FRC Team 5216
 * Add pictures of mentors
 * Do the 404 error page better
 * Change header from garber robitics to garber robotics
+* Add resources page
+* Add Code from past years to github
