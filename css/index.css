@@ -30,15 +30,15 @@ h1 {
 
 
 /*changes color of gold sponsor on the become a sponser page*/
-.gold2 {
+.gold {
   color: #ffd700;
 }
 /*changes color of silver sponsor on the become a sponser page*/
-.silver2 {
+.silver {
     color: #c0c0c0;
 }
 /*changes color of bronze sponsor on the become a sponser page*/
-.bronze2 {
+.bronze {
     color: #cd7f32;
 }
 .scholarshipsHeader{
@@ -59,13 +59,14 @@ h1 {
   text-align: left;
 }
 .sponsor p{
-  padding-left: 1%;
+  padding-left: 5%;
   color: #e6e6e6;
 }
 
 .sponsor li{
-  padding-left: 2%;
+  padding-left: 18%;
   color: #e6e6e6;
+  list-style-type: none;
 }
 
 .sponsor h2{
