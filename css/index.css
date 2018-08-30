@@ -23,6 +23,13 @@ h1 {
   font-family: 'STARWARS'
 }
 
+/* This is the Sponsors on the index page, thats why its called sponsorIndex */
+.SponsorIndex{
+  margin-top: 10%;
+  background-color: rgba(77,78,73, 0.2);
+}
+
+
 .aboutPText {
   color: #e6e6e6;
 }
