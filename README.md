@@ -1,5 +1,8 @@
-# garberrobotics.github.io
+# https://robotics.e-hps.net/
 E-Ville Empire FRC Team 5216
+
+##Changes
+We have changed where our website is currently hosted. 
 
 
 ## Things To do
