@@ -1,7 +1,7 @@
 
 //Changed our webhost for php support. Code will stay on here as a theme if needed
 //This will redirect to our current website
-window.location = "https://robotics.e-hps.net/";
+//window.location = "https://robotics.e-hps.net/";
 
 function includeHTML() { //Thanks w3!
   var z, i, elmnt, file, xhttp;
